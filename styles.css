@@ -334,11 +334,18 @@ header img{
     max-width: 700px;
     margin: 0 auto;
   }
+p{
+    margin: 0 auto;
+  }
 }
 
 /* -----------------------LARGE SCREEN STYLES-------------------- */
 @media screen and (min-width: 950px){
-  header{
+ header img{
+    width: 90px;
+    margin: 0 auto;
+  }
+header{
     grid-template-columns: 1fr 2fr 3fr;
   }
   
@@ -370,5 +377,8 @@ header img{
 
   address a{
       padding: 0.5rem;
+  }
+p{
+    margin: 0 auto;
   }
 }
