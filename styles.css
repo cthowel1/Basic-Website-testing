@@ -327,7 +327,7 @@ header img{
 /* -----------------------MED SCREEN STYLES-------------------- */
 @media screen and (min-width: 700px){
 header img{
-    height: 80px;
+    height: auto;
     width: 80px;
     margin: 2 auto;
   }
@@ -348,8 +348,8 @@ p{
 /* -----------------------LARGE SCREEN STYLES-------------------- */
 @media screen and (min-width: 950px){
  header img{
-    height: 40px;
-    width: 40px;
+   height: auto;
+    min-width: 40px;
     margin: 0 auto;
   }
 header{
