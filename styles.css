@@ -329,7 +329,7 @@ header img{
 header img{
     height: 80px;
     width: 80px;
-    margin: 0 auto;
+    margin: 2 auto;
   }
   footer div{
     display: grid;
@@ -341,14 +341,15 @@ header img{
   }
 p{
     margin: 2 auto;
+	padding: 0 auto;
   }
 }
 
 /* -----------------------LARGE SCREEN STYLES-------------------- */
 @media screen and (min-width: 950px){
  header img{
-    height: 70px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
     margin: 0 auto;
   }
 header{
@@ -387,5 +388,6 @@ header{
   }
 p{
     margin: 3 auto;
+	padding: 0 auto;
   }
 }
